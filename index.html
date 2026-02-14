@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viewnarakmakk</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Image/Video Placeholder -->
+    <div class="background-container"></div>
+
+    <!-- Main Profile Container -->
+    <div class="profile-container fade-in">
+
+        <!-- Profile Picture -->
+        <div class="profile-pic">
+            <img src="assets/proflie.jpg" alt="Profile">
+        </div>
+
+        <!-- Name & Badges -->
+        <h1 class="username">viewnarakmakk</h1>
+
+
+        <!-- Status Box -->
+        <div class="status-box">
+            <div class="status-img">
+                <img src="assets/Jajang.jpg" alt="Status">
+            </div>
+            <div class="status-text">
+                <div class="status-name">Nongjajang <span class="badges">♥ ⚒ 🛡</span></div>
+                <div class="status-activity">currently doing nothing</div>
+            </div>
+        </div>
+
+        <!-- Social Links -->
+        <div class="social-links">
+            <a href="https://www.instagram.com/viewcarley/" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61584328840458" class="social-icon" target="_blank"><i
+                    class="fab fa-facebook"></i></a>
+            <a href="https://www.facebook.com/phumi.rphi.saky.theiyng.kra.thok.2025" class="social-icon"><i
+                    class="fas fa-heart"></i></a> <!-- Simulating the bunny icon -->
+        </div>
+
+
+
+        <!-- Music Player -->
+        <div class="music-player">
+            <div class="album-art">
+                <img src="assets/cover.jpg" alt="Album Art">
+            </div>
+            <div class="track-info">
+                <div class="track-name">SARAN - อยู่กับฉันก่อน </div>
+                <div class="progress-container">
+                    <span class="curr-time">0:00</span>
+                    <div class="progress-bar">
+                        <div class="progress" id="progress"></div>
+                    </div>
+                    <span class="total-time">0:00</span>
+                </div>
+                <div class="controls">
+                    <i class="fas fa-step-backward" id="prev-btn"></i>
+                    <i class="fas fa-play" id="play-btn"></i>
+                    <i class="fas fa-step-forward" id="next-btn"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
